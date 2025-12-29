@@ -1,10 +1,11 @@
 | **Component**             | **Description**                                              | **Supplier**                                                                                                                              |
 | ------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Microcontroller (MCU)** | Seeed Studio XIAO ESP32C3                                    | [Amazon](https://www.amazon.com/dp/B0B94JZ2YF)                                                                                            |
-| **Vibration Motor**       | Mini Vibration Motors DC 3V 12000rpm 10mmx3mm Flat Coin type | [Amazon](https://www.amazon.com/dp/B09KBZZ3MJ)                                                                                            | 
+| **Vibration Motor**       | Mini Vibration Motor DC 3V 12000rpm 10mmx3mm Flat Coin type  | [Amazon](https://www.amazon.com/dp/B09KBZZ3MJ)                                                                                            | 
 | **MOSFET (Motor Driver)** | 2N2222 or 2N2222 Transistor                                  | [Amazon] https://www.amazon.com/dp/B07T61M92G/                                                                                            |
 | **Battery**               | 3.7V 150mAh 20C PH2.0 Plug Rechargeable Lipo Battery         | [Amazon](https://www.amazon.com/dp/B08ZJ4QQMW)                                                                                            |
 | **Rectifier Diode**       | 1N4001 Rectifier Diode                                       | [Amazon](https://www.amazon.com/dp/B071YWNBVM)                                                                                            |
-| **Resistors**             | 100Ω & $10kΩ Resistors                                       | Hopefully you have some laying around?                                                                                                    |
+| **Resistors**             | 100Ω & $10kΩ Resistors                                       | Hopefully you have these laying around?                                                                                                   |
+| **LED**                   | Standard LED                                                 | Hopefully you have this laying around?                                                                                                    |
 
-    
+Note, alternative hardware may be preferrable and create a smaller footprint to fit behind the medallion, so yymv, and do your own research. Specifically, the MCU could be smaller and the battery could be smaller - 150mAh was plenty for this project and could likely be reduced depending on the battery life you are looking to obtain.
