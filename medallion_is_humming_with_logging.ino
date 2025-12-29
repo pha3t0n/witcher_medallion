@@ -3,6 +3,13 @@
 // In the Arduino IDE, go to Tools > Partition Scheme.
 // Select "Default 4MB with spiffs" (or any option that mentions "SPIFFS" or "FAT" or doesn't say "Minimal"). This ensures some memory is reserved for your log file.
 
+// How to View Your Logs
+// Since the XIAO doesn't have a screen, I added the printLogs() function in the setup.
+// Plug your Medallion into your computer.
+// Open the Serial Monitor (Tools > Serial Monitor) before the board finishes booting (or press the RESET button on the board while the monitor is open).
+// Look for the section --- READING SAVED LOGS ---. It will list every open network it has ever found.
+//  Note, since the MCU doesn't have a clock (RTC) and is offline at the time of scanning, it doesn't have the correct time for these logs.
+
 
 #include <WiFi.h>
 #include <driver/adc.h>
