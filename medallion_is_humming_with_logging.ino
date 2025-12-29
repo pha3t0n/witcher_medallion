@@ -1,3 +1,9 @@
+// Important Note on Partition Schemes
+// For this to work, the Arduino IDE needs to know you want to reserve space for files.
+// In the Arduino IDE, go to Tools > Partition Scheme.
+// Select "Default 4MB with spiffs" (or any option that mentions "SPIFFS" or "FAT" or doesn't say "Minimal"). This ensures some memory is reserved for your log file.
+
+
 #include <WiFi.h>
 #include <driver/adc.h>
 #include <FS.h>
